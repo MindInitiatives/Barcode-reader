@@ -54,7 +54,7 @@ public class IntentIntegrator {
     private final Map<String,Object>moreExtras;
 
 
-    public IntentIntegrator(View.OnClickListener activity) {
+    public IntentIntegrator(Activity activity) {
         this.activity = activity;
         title = DEFAULT_TITLE;
         message = DEFAULT_MESSAGE;
